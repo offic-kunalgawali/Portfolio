@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kunal Gawali - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logok.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Student - Global International School</p>
+          <h1>
+            Hi, I'm <span>Kunal</span><br />
+            Gawali From Global
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--About Section Starts...-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/DSC.JPG" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi there , My name is Kunal and I am  studying in Global International School.
+              I am currently in Grade X . My hobbies are : Photography , Videography , Videoediting ,
+               Content Creation and Much More .
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skiils')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experinece')">
+                Experinece
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skiils">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interface</li>
+                <li>
+                  <span>Videography</span><br />In Love With Cinematic Shots
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experinece">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />Content Creation
+                </li>
+                <li>
+                  <span>2019 - 2021</span><br />Freelanced As A Video Editor
+                </li> 
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br />Currently Studying In Global International School</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------Services Section--------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Videography</h2>
+            <p>
+              I am capable of creating creative cinematic visuals with my Camera .
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              I am good at designing the User Interface of a site. I also like
+              to make our site very responsive and creative.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Video Editing</h2>
+             <p> Me and my community are able to create high level editz invloving intense level of smooth transistion
+              and paperwork .
+             </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------Portfolio----------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1 (2).png" />
+            <div class="layer">
+              <h3>Content Creation</h3>
+              <p>
+                I provide valuable content to the audience based on thier intrests , and areas where
+                they are intrested to learn.
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                I had also contributed a music industry , For working on thier User Interface .              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping </h3>
+              <p>
+                I had also worked some of the E - Commerce sites as photographer and As 
+                a UI / UX Designer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!------------Contacts----------->
+
+    <div id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>offic.kunalgawali@gmail.com
+            </p>
+            <p><i class="fa-solid fa-paper-plane"></i>+91 1654789324</p> 
+            <div class="social-icons">
+              <a href="url"><i class="fab fa-facebook"></i></a>
+              <a href="url"><i class="fab fa-twitter-square"></i></a>
+              <a href="url"><i class="fab fa-instagram"></i></a>
+              <a href="url"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="images/images/my-cv1.pdf" download class="btn btn2">Download Documentation</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>All Rights Reserved, Made By @offic.kunalgawali, India</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
